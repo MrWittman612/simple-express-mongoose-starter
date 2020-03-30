@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = 'mongodb://localhost:27017/express-app-test';
+const uri = 'mongodb://localhost:27017/portfolio-blog';
 
 module.exports = (connectMongoDB) => {
   mongoose
