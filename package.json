@@ -1,5 +1,5 @@
 {
-  "name": "simple-express-mongoose-starter",
+  "name": "portfolio-blog",
   "version": "0.0.0",
   "private": true,
   "main": "./bin/www",
