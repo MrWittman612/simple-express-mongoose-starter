@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-blog",
-  "version": "0.0.0",
+  "name": "simple-express-mongoose-starter",
+  "version": "0.0.1",
   "private": true,
   "main": "./bin/www",
   "scripts": {
@@ -10,16 +10,16 @@
     "start:app:dev": "concurrently \"npm run dev\" \"npm run client\""
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "concurrently": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.3.0",
     "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "mongoose": "^5.9.6",
-    "morgan": "~1.9.1"
+    "debug": "~4.3.4",
+    "express": "~4.18.1",
+    "mongoose": "^6.5.4",
+    "morgan": "~1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2",
-    "prettier": "2.0.2"
+    "nodemon": "^2.0.19",
+    "prettier": "2.7.1"
   }
 }

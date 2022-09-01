@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = 'mongodb://localhost:27017/portfolio-blog';
+const uri = 'mongodb://localhost:27017/simple-express-app';
 
 module.exports = (connectMongoDB) => {
   mongoose
