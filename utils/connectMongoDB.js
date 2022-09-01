@@ -15,5 +15,3 @@ module.exports = (connectMongoDB) => {
       console.log(err);
     });
 };
-
-// module.exports = connectMongoDB;
