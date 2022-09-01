@@ -1,0 +1,16 @@
+// http://localhost:3100
+
+@baseURL = http://localhost:3210
+@token = 
+
+###
+
+# @name getMe
+
+GET {{baseURL}}
+
+###
+
+# @name getMe
+
+GET {{baseURL}}/user
